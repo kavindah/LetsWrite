@@ -1,4 +1,38 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);.hero-write img {
+@import url(https://fonts.googleapis.com/css?family=Nunito);body {
+  padding: 0 10px 0 10px;
+}
+
+.hero-write img {
   width: 80px;
+}
+
+.display-4 {
+  color: black;
+}
+
+#left-panel-style {
+  background-color: #FCF7F9;
+  padding: 10px;
+  border-right: 1px solid #94A4AF;
+}
+
+#left-panel-style a {
+  border-radius: unset;
+}
+
+#left-panel-style a:hover {
+  background-color: #1476AE;
+}
+
+#left-panel-style a:active {
+  background-color: #e3342f;
+}
+
+#middle-panel-style {
+  background-color: #ffffff;
+}
+
+#right-panel-style {
+  background-color: #FCF7F9;
 }
 

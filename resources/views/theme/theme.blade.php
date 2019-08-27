@@ -9,7 +9,21 @@
 <body>
     <div id="app">
         <hero></hero>
-        <div class="container">
+
+            <div class="row">
+                <div class="col-md-2" id="left-panel-style">
+                        <a href="#" class="btn btn-block">Heading 1</a>
+                        <a href="#" class="btn btn-block">Heading 1</a>
+                        <a href="#" class="btn btn-block">Heading 1</a>
+                        <a href="#" class="btn btn-block">Heading 1</a>
+                        <a href="#" class="btn btn-block">Heading 1</a>
+                        <a href="#" class="btn btn-block">Heading 1</a>
+                        <a href="#" class="btn btn-block">Heading 1</a>
+                </div>
+
+                <div class="col-md-6" id="middle-panel-style">aaaaaa</div>
+
+                <div class="col-md-3" id="right-panel-style">aaaaaa</div>
             @yield('content')
         </div>
 
