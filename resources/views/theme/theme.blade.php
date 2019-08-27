@@ -21,7 +21,7 @@
                         <a href="#" class="btn btn-block">Heading 1</a>
                 </div>
 
-                <div class="col-md-6" id="middle-panel-style">
+                <div class="col-md-7" id="middle-panel-style">
                     <!-- News jumbotron -->
                     <div class="jumbotron text-center hoverable p-4">
 
