@@ -36,3 +36,19 @@ body{
 #right-panel-style {
   background-color:#FCF7F9;
 }
+.list-group-item{
+  height: auto;
+  img {
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    margin-left: 55px;
+  }
+}
+.card {
+  .list{
+    padding: 5px;
+    background-color:#B70456;
+    color: white;
+  }
+}

@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="col-md-2" id="right-panel-style">
-
+                    @include('includes.winners')
                 </div>
             @yield('content')
         </div>
