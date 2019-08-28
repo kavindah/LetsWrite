@@ -5,6 +5,7 @@
  */
 
 require('./bootstrap');
+// require('./carouselBlock');
 
 window.Vue = require('vue');
 
@@ -21,6 +22,7 @@ window.Vue = require('vue');
 
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('hero', require('./components/hero.vue').default);
+Vue.component('postBlock', require('./components/postBlock.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
