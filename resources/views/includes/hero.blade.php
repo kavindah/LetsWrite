@@ -11,4 +11,3 @@
             featured content or information.</p>
     </div>
 </div>
-@include('layouts.app')
