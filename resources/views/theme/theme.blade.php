@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="app">
-        <hero></hero>
+        @include('includes.hero')
             <div class="row">
                 <div class="col-md-2" id="left-panel-style">
                         <a href="#" class="btn btn-block">Heading 1</a>
