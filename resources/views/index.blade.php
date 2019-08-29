@@ -22,8 +22,6 @@
         <div class="col-md-2" id="right-panel-style">
             @include('includes.winners')
         </div>
-        {{--@yield('content')--}}
     </div>
-
 </div>
 <script src="{{asset('js/app.js')}}"></script>
