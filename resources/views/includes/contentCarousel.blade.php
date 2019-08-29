@@ -1,15 +1,16 @@
 <div class="container">
 
     <!--Carousel Wrapper-->
-    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel"
+         style="padding-bottom: 0">
 
         <!--Indicators-->
-        <ol class="carousel-indicators">
-            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-            <li data-target="#multi-item-example" data-slide-to="1"></li>
-            <li data-target="#multi-item-example" data-slide-to="2"></li>
-        </ol>
-        <!--/.Indicators-->
+    {{--<ol class="carousel-indicators">--}}
+    {{--<li data-target="#multi-item-example" data-slide-to="0" class="active"></li>--}}
+    {{--<li data-target="#multi-item-example" data-slide-to="1"></li>--}}
+    {{--<li data-target="#multi-item-example" data-slide-to="2"></li>--}}
+    {{--</ol>--}}
+    <!--/.Indicators-->
 
         <!--Slides-->
         <div class="carousel-inner" role="listbox">
@@ -28,7 +29,7 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the
                                     card's content.</p>
-                                <a class="btn btn-primary btn-sm">Button</a>
+                                <a class="btn btn-outline-primary btn-sm">Button</a>
                             </div>
                         </div>
                     </div>
@@ -43,7 +44,7 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the
                                     card's content.</p>
-                                <a class="btn btn-primary btn-sm">Button</a>
+                                <a class="btn btn-outline-primary btn-sm">Button</a>
                             </div>
                         </div>
                     </div>
@@ -58,7 +59,7 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the
                                     card's content.</p>
-                                <a class="btn btn-primary btn-sm">Button</a>
+                                <a class="btn btn-outline-primary btn-sm">Button</a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +82,7 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the
                                     card's content.</p>
-                                <a class="btn btn-primary btn-sm">Button</a>
+                                <a class="btn btn-outline-primary btn-sm">Button</a>
                             </div>
                         </div>
                     </div>
@@ -96,7 +97,7 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the
                                     card's content.</p>
-                                <a class="btn btn-primary btn-sm">Button</a>
+                                <a class="btn btn-outline-primary btn-sm">Button</a>
                             </div>
                         </div>
                     </div>
@@ -111,7 +112,7 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the
                                     card's content.</p>
-                                <a class="btn btn-primary btn-sm">Button</a>
+                                <a class="btn btn-outline-primary btn-sm">Button</a>
                             </div>
                         </div>
                     </div>
@@ -134,7 +135,7 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the
                                     card's content.</p>
-                                <a class="btn btn-primary btn-sm">Button</a>
+                                <a class="btn btn-outline-primary btn-sm">Button</a>
                             </div>
                         </div>
                     </div>
@@ -149,7 +150,7 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the
                                     card's content.</p>
-                                <a class="btn btn-primary btn-sm">Button</a>
+                                <a class="btn btn-outline-primary btn-sm">Button</a>
                             </div>
                         </div>
                     </div>
@@ -164,7 +165,7 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the
                                     card's content.</p>
-                                <a class="btn btn-primary btn-sm">Button</a>
+                                <a class="btn btn-outline-primary btn-sm">Button</a>
                             </div>
                         </div>
                     </div>
@@ -187,10 +188,10 @@
     <!--/.Carousel Wrapper-->
     <!--Controls-->
     <div class="controls-top float-right">
-        <a class="btn btn-info" href="#multi-item-example" data-slide="prev"> < </a>
-        <a class="btn btn-info" href="#multi-item-example" data-slide="next"> > </a>
+        <a class="btn btn-outline-info btn-sm" href="#multi-item-example" data-slide="prev"> < </a>
+        <a class="btn btn-outline-info btn-sm" href="#multi-item-example" data-slide="next"> > </a>
     </div>
-    <br>
+    <br><br>
 
     <!--/.Controls-->
 </div>

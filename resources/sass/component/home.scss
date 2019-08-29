@@ -57,8 +57,12 @@ body {
 .card {
   .list {
     padding: 5px;
-    background-color: #B70456;
+    background-color: #545F5D;
     color: white;
+    text-align: center;
+  }
+  .btn:hover{
+    color: white !important;
   }
 }
 .hero-image{
@@ -73,12 +77,20 @@ body {
   }
 }
 .navbar{
-
+  margin:0;
 }
 
 .nav-profile-pic {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-color: #275C8D;
-  border-radius: 50px;
+  border-radius: 45px;
+}
+.page-footer{
+  background-color: #298877;
+  margin-top: 25px;
+
+  .footer-copyright{
+    background-color: #1E5C51;
+  }
 }
